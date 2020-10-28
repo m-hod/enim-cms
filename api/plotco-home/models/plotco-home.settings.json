@@ -2,7 +2,8 @@
   "kind": "singleType",
   "collectionName": "plotco_homes",
   "info": {
-    "name": "Plotco-home"
+    "name": "plotco-home",
+    "description": ""
   },
   "options": {
     "increments": true,
