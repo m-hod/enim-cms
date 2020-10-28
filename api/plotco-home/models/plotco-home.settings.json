@@ -1,0 +1,34 @@
+{
+  "kind": "singleType",
+  "collectionName": "plotco_homes",
+  "info": {
+    "name": "Plotco-home"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "hero": {
+      "type": "component",
+      "repeatable": false,
+      "component": "plotco.hero-section"
+    },
+    "honestyBox": {
+      "type": "component",
+      "repeatable": false,
+      "component": "plotco.honesty-box"
+    },
+    "sections": {
+      "type": "component",
+      "repeatable": true,
+      "component": "plotco.hero-section"
+    },
+    "cards": {
+      "type": "component",
+      "repeatable": true,
+      "component": "plotco.card"
+    }
+  }
+}

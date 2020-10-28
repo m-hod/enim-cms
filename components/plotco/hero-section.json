@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_plotco_hero_sections",
+  "info": {
+    "name": "HeroSection",
+    "icon": "home",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "description": {
+      "type": "text",
+      "required": true,
+      "maxLength": 250
+    },
+    "images": {
+      "type": "component",
+      "repeatable": true,
+      "component": "plotco.image",
+      "required": true
+    }
+  }
+}

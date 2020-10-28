@@ -1,0 +1,20 @@
+{
+  "kind": "singleType",
+  "collectionName": "plotco_galleries",
+  "info": {
+    "name": "plotco-gallery"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "images": {
+      "type": "component",
+      "repeatable": true,
+      "component": "plotco.image",
+      "required": true
+    }
+  }
+}

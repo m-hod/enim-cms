@@ -1,0 +1,28 @@
+{
+  "kind": "singleType",
+  "collectionName": "plotco_abouts",
+  "info": {
+    "name": "Plotco-about"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "content": {
+      "type": "component",
+      "repeatable": true,
+      "component": "plotco.about-section",
+      "required": true,
+      "min": 3,
+      "max": 3
+    },
+    "headerImage": {
+      "type": "component",
+      "repeatable": false,
+      "component": "plotco.image",
+      "required": true
+    }
+  }
+}
