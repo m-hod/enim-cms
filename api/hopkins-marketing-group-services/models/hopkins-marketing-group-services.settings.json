@@ -1,0 +1,20 @@
+{
+  "kind": "singleType",
+  "collectionName": "hopkins_marketing_group_services",
+  "info": {
+    "name": "HopkinsMarketingGroup-Services"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "sections": {
+      "type": "component",
+      "repeatable": true,
+      "component": "hopkins-marketing-group.service-section",
+      "required": true
+    }
+  }
+}

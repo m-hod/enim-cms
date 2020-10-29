@@ -1,23 +1,13 @@
 {
-  "collectionName": "components_plotco_cards",
+  "collectionName": "components_hopkins_marketing_group_service_sections",
   "info": {
-    "name": "Card",
-    "icon": "id-badge",
-    "description": ""
+    "name": "ServiceSection",
+    "icon": "align-center"
   },
   "options": {},
   "attributes": {
-    "buttonLabel": {
+    "anchor": {
       "type": "string",
-      "required": true
-    },
-    "buttonLink": {
-      "type": "string",
-      "required": true
-    },
-    "description": {
-      "type": "text",
-      "maxLength": 150,
       "required": true
     },
     "title": {
@@ -32,6 +22,11 @@
       ],
       "plugin": "upload",
       "required": true
+    },
+    "content": {
+      "type": "component",
+      "repeatable": true,
+      "component": "hopkins-marketing-group.section-content"
     }
   }
 }

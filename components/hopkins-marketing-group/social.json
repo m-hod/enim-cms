@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_hopkins_marketing_group_socials",
+  "info": {
+    "name": "Social",
+    "icon": "address-book",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "link": {
+      "type": "string",
+      "required": true
+    },
+    "type": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

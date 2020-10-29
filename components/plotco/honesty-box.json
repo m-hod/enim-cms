@@ -15,11 +15,6 @@
       "type": "string",
       "required": true
     },
-    "image": {
-      "type": "component",
-      "repeatable": false,
-      "component": "plotco.image"
-    },
     "longDescription": {
       "type": "richtext",
       "required": true,
@@ -32,6 +27,15 @@
     },
     "title": {
       "type": "string",
+      "required": true
+    },
+    "image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
       "required": true
     }
   }

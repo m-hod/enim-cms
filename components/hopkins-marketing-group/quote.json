@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_hopkins_marketing_group_quotes",
+  "info": {
+    "name": "Quote",
+    "icon": "allergies"
+  },
+  "options": {},
+  "attributes": {
+    "description": {
+      "type": "richtext",
+      "required": true
+    }
+  }
+}

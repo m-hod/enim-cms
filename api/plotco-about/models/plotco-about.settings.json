@@ -2,7 +2,7 @@
   "kind": "singleType",
   "collectionName": "plotco_abouts",
   "info": {
-    "name": "plotco-about",
+    "name": "Plotco-About",
     "description": ""
   },
   "options": {
@@ -20,9 +20,12 @@
       "max": 3
     },
     "headerImage": {
-      "type": "component",
-      "repeatable": false,
-      "component": "plotco.image",
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
       "required": true
     }
   }

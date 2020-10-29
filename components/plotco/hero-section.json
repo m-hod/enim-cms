@@ -13,9 +13,12 @@
       "maxLength": 250
     },
     "images": {
-      "type": "component",
-      "repeatable": true,
-      "component": "plotco.image",
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
       "required": true
     }
   }

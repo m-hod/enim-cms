@@ -1,0 +1,42 @@
+{
+  "kind": "singleType",
+  "collectionName": "hopkins_marketing_group_homes",
+  "info": {
+    "name": "HopkinsMarketingGroup-Home",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "heroImage": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": true
+    },
+    "services": {
+      "type": "component",
+      "repeatable": true,
+      "component": "hopkins-marketing-group.service",
+      "required": true
+    },
+    "clients": {
+      "type": "component",
+      "repeatable": true,
+      "component": "hopkins-marketing-group.client",
+      "required": true
+    },
+    "sections": {
+      "type": "component",
+      "repeatable": true,
+      "component": "hopkins-marketing-group.section",
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "collectionName": "components_hopkins_marketing_group_cards",
+  "info": {
+    "name": "Card",
+    "icon": "align-right"
+  },
+  "options": {},
+  "attributes": {
+    "profileImage": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": true
+    },
+    "image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": true
+    },
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "role": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text",
+      "required": true
+    }
+  }
+}

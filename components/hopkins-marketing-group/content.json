@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_hopkins_marketing_group_contents",
+  "info": {
+    "name": "Content",
+    "icon": "ambulance"
+  },
+  "options": {},
+  "attributes": {
+    "subtitle": {
+      "type": "string",
+      "required": true
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "sections": {
+      "type": "component",
+      "repeatable": true,
+      "component": "hopkins-marketing-group.text-field"
+    }
+  }
+}

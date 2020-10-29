@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_hopkins_marketing_group_sections",
+  "info": {
+    "name": "section",
+    "icon": "angle-right",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "richtext",
+      "required": true,
+      "maxLength": 75
+    },
+    "contents": {
+      "type": "component",
+      "repeatable": true,
+      "component": "hopkins-marketing-group.text-field",
+      "max": 2,
+      "min": 1,
+      "required": true
+    }
+  }
+}

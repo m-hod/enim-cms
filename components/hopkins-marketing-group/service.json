@@ -1,0 +1,39 @@
+{
+  "collectionName": "components_hopkins_marketing_group_services",
+  "info": {
+    "name": "ServiceCard",
+    "icon": "ad",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "maxLength": 15,
+      "required": true
+    },
+    "image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": true
+    },
+    "link": {
+      "type": "string",
+      "required": true
+    },
+    "anchor": {
+      "type": "string",
+      "required": true
+    },
+    "services": {
+      "type": "component",
+      "repeatable": true,
+      "component": "hopkins-marketing-group.short-text-field",
+      "required": true
+    }
+  }
+}

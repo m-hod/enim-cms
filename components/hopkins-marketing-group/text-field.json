@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_hopkins_marketing_group_text_fields",
+  "info": {
+    "name": "LongTextField",
+    "icon": "align-left",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "text"
+    }
+  }
+}

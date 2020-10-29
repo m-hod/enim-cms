@@ -1,0 +1,43 @@
+{
+  "collectionName": "components_hopkins_marketing_group_clients",
+  "info": {
+    "name": "Client",
+    "icon": "adjust"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "link": {
+      "type": "string",
+      "required": true
+    },
+    "image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": true
+    },
+    "socials": {
+      "type": "component",
+      "repeatable": true,
+      "component": "hopkins-marketing-group.social",
+      "required": true
+    },
+    "tags": {
+      "type": "component",
+      "repeatable": true,
+      "component": "hopkins-marketing-group.short-text-field",
+      "required": true
+    },
+    "description": {
+      "type": "text",
+      "required": true
+    }
+  }
+}

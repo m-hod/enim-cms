@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_hopkins_marketing_group_short_text_fields",
+  "info": {
+    "name": "ShortTextField",
+    "icon": "align-justify"
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "string",
+      "maxLength": 25,
+      "required": true
+    }
+  }
+}
