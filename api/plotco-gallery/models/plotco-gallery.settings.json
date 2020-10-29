@@ -2,7 +2,8 @@
   "kind": "singleType",
   "collectionName": "plotco_galleries",
   "info": {
-    "name": "plotco-gallery"
+    "name": "plotco-gallery",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -11,9 +12,12 @@
   },
   "attributes": {
     "images": {
-      "type": "component",
-      "repeatable": true,
-      "component": "plotco.image",
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
       "required": true
     }
   }
