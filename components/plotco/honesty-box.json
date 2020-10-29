@@ -37,6 +37,10 @@
       ],
       "plugin": "upload",
       "required": true
+    },
+    "anchor": {
+      "type": "string",
+      "required": true
     }
   }
 }
