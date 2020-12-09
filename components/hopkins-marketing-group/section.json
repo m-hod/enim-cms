@@ -9,8 +9,7 @@
   "attributes": {
     "heading": {
       "type": "richtext",
-      "required": true,
-      "maxLength": 75
+      "required": true
     },
     "contents": {
       "type": "component",

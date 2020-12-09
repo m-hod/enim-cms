@@ -27,6 +27,14 @@
       ],
       "plugin": "upload",
       "required": true
+    },
+    "internalLinks": {
+      "type": "component",
+      "repeatable": true,
+      "component": "plotco.display-link",
+      "required": true,
+      "max": 2,
+      "min": 2
     }
   }
 }
