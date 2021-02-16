@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/aahodges",
+      "handler": "aahodges.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/aahodges",
+      "handler": "aahodges.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/aahodges",
+      "handler": "aahodges.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_a_hodges_world_timelines",
+  "info": {
+    "name": "WorldTimeline",
+    "icon": "globe-africa"
+  },
+  "options": {},
+  "attributes": {
+    "order": {
+      "type": "integer",
+      "required": true
+    },
+    "entries": {
+      "type": "component",
+      "repeatable": true,
+      "component": "a-hodges.world-timeline-entry",
+      "required": true
+    }
+  }
+}

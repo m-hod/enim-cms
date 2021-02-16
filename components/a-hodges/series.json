@@ -1,0 +1,37 @@
+{
+  "collectionName": "components_a_hodges_series",
+  "info": {
+    "name": "Series",
+    "icon": "swatchbook"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "subtitle": {
+      "type": "string",
+      "required": true
+    },
+    "books": {
+      "type": "component",
+      "repeatable": true,
+      "component": "a-hodges.book",
+      "required": true
+    },
+    "banners": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "worldId": {
+      "type": "integer",
+      "required": true
+    }
+  }
+}

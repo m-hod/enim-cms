@@ -1,0 +1,34 @@
+{
+  "collectionName": "components_a_hodges_worlds",
+  "info": {
+    "name": "World",
+    "icon": "globe"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "subtitle": {
+      "type": "string",
+      "required": true
+    },
+    "sections": {
+      "type": "component",
+      "repeatable": true,
+      "component": "a-hodges.world-timeline-section",
+      "required": true
+    },
+    "timelines": {
+      "type": "component",
+      "repeatable": true,
+      "component": "a-hodges.world-timeline",
+      "required": true
+    },
+    "seriesId": {
+      "type": "integer",
+      "required": true
+    }
+  }
+}

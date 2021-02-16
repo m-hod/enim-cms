@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_a_hodges_quotes",
+  "info": {
+    "name": "Quote",
+    "icon": "quote-right"
+  },
+  "options": {},
+  "attributes": {
+    "content": {
+      "type": "string",
+      "required": true
+    },
+    "author": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

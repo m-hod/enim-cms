@@ -1,0 +1,39 @@
+{
+  "kind": "singleType",
+  "collectionName": "aahodges",
+  "info": {
+    "name": "a-hodges",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "series": {
+      "type": "component",
+      "repeatable": true,
+      "component": "a-hodges.series",
+      "required": true
+    },
+    "worlds": {
+      "type": "component",
+      "repeatable": true,
+      "component": "a-hodges.world",
+      "required": true
+    },
+    "about": {
+      "type": "component",
+      "repeatable": false,
+      "component": "a-hodges.about",
+      "required": true
+    },
+    "socials": {
+      "type": "component",
+      "repeatable": false,
+      "component": "a-hodges.socials",
+      "required": true
+    }
+  }
+}

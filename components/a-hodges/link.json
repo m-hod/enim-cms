@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_a_hodges_links",
+  "info": {
+    "name": "Link",
+    "icon": "link"
+  },
+  "options": {},
+  "attributes": {
+    "url": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    }
+  }
+}

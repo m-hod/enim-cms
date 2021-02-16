@@ -1,0 +1,51 @@
+{
+  "collectionName": "components_a_hodges_books",
+  "info": {
+    "name": "Book",
+    "icon": "book",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "summary": {
+      "type": "richtext",
+      "required": true
+    },
+    "orderLinks": {
+      "type": "component",
+      "repeatable": true,
+      "component": "a-hodges.link",
+      "required": true
+    },
+    "cover": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": true
+    },
+    "banner": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": true
+    },
+    "quotes": {
+      "type": "component",
+      "repeatable": true,
+      "component": "a-hodges.quote"
+    },
+    "is_promo": {
+      "type": "boolean"
+    }
+  }
+}

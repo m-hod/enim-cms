@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_a_hodges_world_timeline_sections",
+  "info": {
+    "name": "WorldTimelineSection",
+    "icon": "globe-europe",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "order": {
+      "type": "integer",
+      "required": true
+    },
+    "emphasis": {
+      "type": "string",
+      "required": true
+    },
+    "content": {
+      "type": "richtext",
+      "required": true
+    },
+    "images": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": true
+    }
+  }
+}
