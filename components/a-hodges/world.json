@@ -26,8 +26,8 @@
       "component": "a-hodges.world-timeline",
       "required": true
     },
-    "seriesId": {
-      "type": "integer",
+    "seriesIdentifier": {
+      "type": "string",
       "required": true
     }
   }

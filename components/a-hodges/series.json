@@ -29,9 +29,9 @@
       "plugin": "upload",
       "required": false
     },
-    "worldId": {
-      "type": "integer",
-      "required": true
+    "worldIdentifier": {
+      "type": "string",
+      "required": false
     }
   }
 }

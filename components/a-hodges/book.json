@@ -11,6 +11,10 @@
       "type": "string",
       "required": true
     },
+    "subtitle": {
+      "type": "string",
+      "required": true
+    },
     "summary": {
       "type": "richtext",
       "required": true
