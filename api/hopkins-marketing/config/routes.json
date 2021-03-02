@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/hopkins-marketing",
+      "handler": "hopkins-marketing.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/hopkins-marketing",
+      "handler": "hopkins-marketing.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/hopkins-marketing",
+      "handler": "hopkins-marketing.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

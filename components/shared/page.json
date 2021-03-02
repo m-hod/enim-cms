@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_shared_pages",
+  "info": {
+    "name": "Page",
+    "icon": "file"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "text"
+    },
+    "Keywords": {
+      "type": "text"
+    }
+  }
+}

@@ -17,7 +17,7 @@
     "sections": {
       "type": "component",
       "repeatable": true,
-      "component": "hopkins-marketing-group.text-field"
+      "component": "hopkins-marketing.text-field"
     }
   }
 }

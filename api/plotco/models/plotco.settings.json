@@ -1,8 +1,8 @@
 {
   "kind": "singleType",
-  "collectionName": "aahodges",
+  "collectionName": "plotcos",
   "info": {
-    "name": "AHodges",
+    "name": "Plotco",
     "description": ""
   },
   "options": {
@@ -14,31 +14,33 @@
     "pages": {
       "type": "component",
       "repeatable": true,
-      "component": "shared.page",
+      "component": "shared.page"
+    },
+    "home": {
+      "type": "component",
+      "repeatable": false,
+      "component": "plotco.home",
       "required": true
     },
-    "series": {
-      "type": "component",
-      "repeatable": true,
-      "component": "a-hodges.series",
-      "required": true
-    },
-    "worlds": {
-      "type": "component",
-      "repeatable": true,
-      "component": "a-hodges.world",
+    "gallery": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
       "required": true
     },
     "about": {
       "type": "component",
       "repeatable": false,
-      "component": "a-hodges.about",
+      "component": "plotco.about",
       "required": true
     },
-    "socials": {
+    "contactForm": {
       "type": "component",
       "repeatable": false,
-      "component": "a-hodges.socials",
+      "component": "shared.form",
       "required": true
     }
   }

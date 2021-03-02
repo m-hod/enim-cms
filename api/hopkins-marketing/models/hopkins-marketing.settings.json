@@ -1,8 +1,8 @@
 {
   "kind": "singleType",
-  "collectionName": "aahodges",
+  "collectionName": "hopkins_marketings",
   "info": {
-    "name": "AHodges",
+    "name": "HopkinsMarketing",
     "description": ""
   },
   "options": {
@@ -17,28 +17,27 @@
       "component": "shared.page",
       "required": true
     },
-    "series": {
+    "home": {
       "type": "component",
-      "repeatable": true,
-      "component": "a-hodges.series",
+      "repeatable": false,
+      "component": "hopkins-marketing.home",
       "required": true
     },
-    "worlds": {
+    "services": {
       "type": "component",
-      "repeatable": true,
-      "component": "a-hodges.world",
+      "repeatable": false,
+      "component": "hopkins-marketing.services",
       "required": true
     },
     "about": {
       "type": "component",
       "repeatable": false,
-      "component": "a-hodges.about",
-      "required": true
+      "component": "hopkins-marketing.about"
     },
-    "socials": {
+    "contactForm": {
       "type": "component",
       "repeatable": false,
-      "component": "a-hodges.socials",
+      "component": "shared.form",
       "required": true
     }
   }

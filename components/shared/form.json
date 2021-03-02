@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_shared_forms",
+  "info": {
+    "name": "Form",
+    "icon": "angle-double-left"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string",
+      "required": true
+    },
+    "Description": {
+      "type": "richtext",
+      "required": true
+    },
+    "Success": {
+      "type": "richtext",
+      "required": true
+    },
+    "Error": {
+      "type": "richtext",
+      "required": true
+    }
+  }
+}

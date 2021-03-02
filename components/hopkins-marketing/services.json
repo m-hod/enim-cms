@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_hopkins_marketing_group_services",
+  "info": {
+    "name": "Services",
+    "icon": "angle-left"
+  },
+  "options": {},
+  "attributes": {
+    "sections": {
+      "type": "component",
+      "repeatable": true,
+      "component": "hopkins-marketing.service-section",
+      "required": true
+    }
+  }
+}

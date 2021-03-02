@@ -1,15 +1,10 @@
 {
-  "kind": "singleType",
-  "collectionName": "hopkins_marketing_group_homes",
+  "collectionName": "components_hopkins_marketing_group_homes",
   "info": {
-    "name": "HopkinsMarketingGroup-Home",
-    "description": ""
+    "name": "Home",
+    "icon": "angle-double-up"
   },
-  "options": {
-    "increments": true,
-    "timestamps": true,
-    "draftAndPublish": true
-  },
+  "options": {},
   "attributes": {
     "heroImage": {
       "model": "file",

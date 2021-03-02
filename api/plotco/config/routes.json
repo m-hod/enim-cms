@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/plotco",
+      "handler": "plotco.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/plotco",
+      "handler": "plotco.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/plotco",
+      "handler": "plotco.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

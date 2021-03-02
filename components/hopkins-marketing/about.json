@@ -1,15 +1,10 @@
 {
-  "kind": "singleType",
-  "collectionName": "hopkins_marketing_group_abouts",
+  "collectionName": "components_hopkins_marketing_group_abouts",
   "info": {
-    "name": "HopkinsMarketingGroup-About",
-    "description": ""
+    "name": "About",
+    "icon": "angle-down"
   },
-  "options": {
-    "increments": true,
-    "timestamps": true,
-    "draftAndPublish": true
-  },
+  "options": {},
   "attributes": {
     "cards": {
       "type": "component",

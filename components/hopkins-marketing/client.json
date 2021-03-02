@@ -26,13 +26,13 @@
     "socials": {
       "type": "component",
       "repeatable": true,
-      "component": "hopkins-marketing-group.social",
+      "component": "hopkins-marketing.social",
       "required": true
     },
     "tags": {
       "type": "component",
       "repeatable": true,
-      "component": "hopkins-marketing-group.short-text-field",
+      "component": "hopkins-marketing.short-text-field",
       "required": true
     },
     "description": {

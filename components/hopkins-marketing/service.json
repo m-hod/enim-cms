@@ -32,7 +32,7 @@
     "services": {
       "type": "component",
       "repeatable": true,
-      "component": "hopkins-marketing-group.short-text-field",
+      "component": "hopkins-marketing.short-text-field",
       "required": true
     }
   }

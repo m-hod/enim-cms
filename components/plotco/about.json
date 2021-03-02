@@ -1,0 +1,35 @@
+{
+  "collectionName": "components_plotco_abouts",
+  "info": {
+    "name": "About",
+    "icon": "angle-double-down"
+  },
+  "options": {},
+  "attributes": {
+    "content": {
+      "type": "component",
+      "repeatable": true,
+      "component": "plotco.about-section",
+      "required": true,
+      "max": 3,
+      "min": 3
+    },
+    "headerImage": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": true
+    },
+    "internalLinks": {
+      "type": "component",
+      "repeatable": true,
+      "component": "plotco.display-link",
+      "required": true,
+      "max": 2,
+      "min": 2
+    }
+  }
+}

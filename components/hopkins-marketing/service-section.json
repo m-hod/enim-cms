@@ -26,7 +26,7 @@
     "content": {
       "type": "component",
       "repeatable": true,
-      "component": "hopkins-marketing-group.section-content"
+      "component": "hopkins-marketing.section-content"
     }
   }
 }

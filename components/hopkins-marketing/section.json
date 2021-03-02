@@ -14,7 +14,7 @@
     "contents": {
       "type": "component",
       "repeatable": true,
-      "component": "hopkins-marketing-group.text-field",
+      "component": "hopkins-marketing.text-field",
       "max": 2,
       "min": 1,
       "required": true

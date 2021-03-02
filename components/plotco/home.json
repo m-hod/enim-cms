@@ -1,0 +1,42 @@
+{
+  "collectionName": "components_plotco_homes",
+  "info": {
+    "name": "Home",
+    "icon": "anchor",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "hero": {
+      "type": "component",
+      "repeatable": false,
+      "component": "plotco.hero-section",
+      "required": true
+    },
+    "honestyBox": {
+      "type": "component",
+      "repeatable": false,
+      "component": "plotco.honesty-box",
+      "required": true
+    },
+    "sections": {
+      "type": "component",
+      "repeatable": true,
+      "component": "plotco.section",
+      "required": true
+    },
+    "cards": {
+      "type": "component",
+      "repeatable": true,
+      "component": "plotco.card"
+    },
+    "internalLinks": {
+      "type": "component",
+      "repeatable": true,
+      "component": "plotco.display-link",
+      "required": true,
+      "max": 2,
+      "min": 2
+    }
+  }
+}
