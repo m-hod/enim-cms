@@ -39,6 +39,11 @@
       "repeatable": false,
       "component": "shared.form",
       "required": true
+    },
+    "portfolio": {
+      "type": "component",
+      "repeatable": false,
+      "component": "hopkins-marketing.portfolio"
     }
   }
 }

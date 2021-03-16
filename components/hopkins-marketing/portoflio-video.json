@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_hopkins_marketing_portoflio_videos",
+  "info": {
+    "name": "PortoflioVideo",
+    "icon": "video"
+  },
+  "options": {},
+  "attributes": {
+    "thumbnail": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": true
+    },
+    "video": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": true
+    }
+  }
+}

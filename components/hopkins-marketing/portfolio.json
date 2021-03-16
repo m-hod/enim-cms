@@ -1,0 +1,36 @@
+{
+  "collectionName": "components_hopkins_marketing_portfolios",
+  "info": {
+    "name": "portfolio",
+    "icon": "angle-up"
+  },
+  "options": {},
+  "attributes": {
+    "videographySubtitle": {
+      "type": "string",
+      "required": true
+    },
+    "videographyTitle": {
+      "type": "string",
+      "required": true
+    },
+    "videos": {
+      "type": "component",
+      "repeatable": true,
+      "component": "hopkins-marketing.portoflio-video"
+    },
+    "webSubtitle": {
+      "type": "string",
+      "required": true
+    },
+    "webTitle": {
+      "type": "string",
+      "required": true
+    },
+    "websites": {
+      "type": "component",
+      "repeatable": true,
+      "component": "hopkins-marketing.portfolio-website"
+    }
+  }
+}
