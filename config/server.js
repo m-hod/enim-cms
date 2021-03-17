@@ -4,7 +4,7 @@ module.exports = ({ env }) => ({
   url: process.env.DOMAIN,
   admin: {
     auth: {
-      secret: env("ADMIN_JWT_SECRET", process.env.ADMIN_JWT_SECRET),
+      secret: process.env.ADMIN_JWT_SECRET,
     },
   },
 });
