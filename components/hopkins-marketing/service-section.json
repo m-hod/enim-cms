@@ -2,7 +2,8 @@
   "collectionName": "components_hopkins_marketing_group_service_sections",
   "info": {
     "name": "ServiceSection",
-    "icon": "align-center"
+    "icon": "align-center",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -27,6 +28,11 @@
       "type": "component",
       "repeatable": true,
       "component": "hopkins-marketing.section-content"
+    },
+    "portfolioLink": {
+      "type": "component",
+      "repeatable": false,
+      "component": "hopkins-marketing.portfolio-link"
     }
   }
 }

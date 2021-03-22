@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_hopkins_marketing_portfolio_links",
+  "info": {
+    "name": "PortfolioLink",
+    "icon": "angry"
+  },
+  "options": {},
+  "attributes": {
+    "link": {
+      "type": "string",
+      "private": false,
+      "required": true
+    },
+    "anchor": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
