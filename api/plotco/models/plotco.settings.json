@@ -22,15 +22,6 @@
       "component": "plotco.home",
       "required": true
     },
-    "gallery": {
-      "collection": "file",
-      "via": "related",
-      "allowedTypes": [
-        "images"
-      ],
-      "plugin": "upload",
-      "required": true
-    },
     "about": {
       "type": "component",
       "repeatable": false,
@@ -41,6 +32,12 @@
       "type": "component",
       "repeatable": false,
       "component": "shared.form",
+      "required": true
+    },
+    "gallery": {
+      "type": "component",
+      "repeatable": false,
+      "component": "plotco.gallery",
       "required": true
     }
   }
