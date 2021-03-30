@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_plotco_gallery_videos",
+  "info": {
+    "name": "gallery-video",
+    "icon": "archway"
+  },
+  "options": {},
+  "attributes": {
+    "thumbnail": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": true
+    },
+    "video": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": true
+    }
+  }
+}
