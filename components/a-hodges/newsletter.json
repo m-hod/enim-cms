@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_a_hodges_newsletters",
+  "info": {
+    "name": "Newsletter",
+    "icon": "arrows-alt-h"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "content": {
+      "type": "text",
+      "required": true
+    },
+    "backgroundImage": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": true
+    }
+  }
+}

@@ -40,6 +40,11 @@
       "repeatable": false,
       "component": "a-hodges.socials",
       "required": true
+    },
+    "newsletter": {
+      "type": "component",
+      "repeatable": false,
+      "component": "a-hodges.newsletter"
     }
   }
 }
