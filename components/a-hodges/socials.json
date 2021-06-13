@@ -2,7 +2,8 @@
   "collectionName": "components_a_hodges_socials",
   "info": {
     "name": "socials",
-    "icon": "smile"
+    "icon": "smile",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -14,6 +15,12 @@
       "type": "string"
     },
     "instagram": {
+      "type": "string"
+    },
+    "goodreads": {
+      "type": "string"
+    },
+    "bookbub": {
       "type": "string"
     }
   }
